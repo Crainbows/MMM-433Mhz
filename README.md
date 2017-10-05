@@ -44,7 +44,7 @@ var config = {
             config: {
                 wiringPin: 2,
                 responses: [
-                    {code: 4781610, action: "MONITOR", timeout: 300}
+                    {code: 4781610, action: "MONITOR", timeout: 300, soft: true}
                 ],
             }
         }
@@ -78,9 +78,6 @@ var config = {
 | `REBOOT`         | Sends a notification to MMM-Remote-Control to REBOOT. | None
 | `REFRESH`        | Sends a notification to MMM-Remote-Control to REFRESH. | None
 
-## ToDo
-
-* Allow scanner.js to access the config file and scan on other pins.
 
 ## MIT License
 
