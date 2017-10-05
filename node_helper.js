@@ -37,6 +37,8 @@ module.exports = NodeHelper.create({
 	socketNotificationReceived: function(notification, payload) {
 		var self = this;
 		console.log(this.name + " received a socket notification: " + notification);
-		self.initSniffer(payload);
+		if(notification === "CONFIG"){
+			self.initSniffer(payload);
+		}
 	},
 });
