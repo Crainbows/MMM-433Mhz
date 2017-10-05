@@ -1,0 +1,11 @@
+{
+  "name": "MMM-433Mhz",
+  "version": "1.0.0",
+  "description": "This is a module for the MagicMirror². Trigger Magic Mirror functions with 433Mhz signals such as garage remote keys or wireless PIR sensors.",
+  "main": "MMM-433Mhz.js",
+  "author": "Oliver Balmford",
+  "license": "MIT",
+  "dependencies": {
+    "rpi-433": "latest"
+  }
+}
